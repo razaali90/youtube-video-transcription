@@ -25,38 +25,38 @@ This project is a web application that allows users to download audio from YouTu
 
 ### Installation
 
-Markup : 1. Clone the repository:
-    ```console
-    # Install the required packages
-    git clone https://github.com/razaali90/youtube-transcription
-    cd youtube-transcription
-    ```
-    2. Create a virtual environment and activate it:
-    ```console
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+1. Clone the repository:
+```console
+git clone https://github.com/razaali90/youtube-video-transcription
+cd youtube-video-transcription
+```
 
-    3. Install the required packages:
-    ```console
-    pip install -r requirements.txt
-    ```
+2. Create a virtual environment and activate it:
+```console
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-    4. Set up Deepgram API key:
-    Obtain an API key from Deepgram.
-    ```python
-    DEEPGRAM_API_KEY = "YOUR_API_KEY"
-    ```
+3. Install the required packages:
+```console
+pip install -r requirements.txt
+```
+
+4. Set up Deepgram API key:
+Obtain an API key from Deepgram.
+```python
+DEEPGRAM_API_KEY = "YOUR_API_KEY"
+```
 
 ## Running the Application
 
-Markup : 1. Start the Flask app:
-    ```console
-    python3 app.py
-    ```
+1. Start the Flask app:
+```console
+python3 app.py
+```
 
-    2. Access the application:
-    Open your web browser and go to http://127.0.0.1:5000.
+2. Access the application:
+Open your web browser and go to http://127.0.0.1:5000.
 
 ## Usage
 
