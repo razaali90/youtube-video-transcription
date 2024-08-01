@@ -1,0 +1,4 @@
+deepgram-sdk
+Flask
+Flask-Cors
+youtube_dl
